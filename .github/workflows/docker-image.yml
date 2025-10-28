@@ -1,9 +1,10 @@
 name: Docker Image Build and Push
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:  # allows to run it manually
+#  push:
+#    branches:
+#      - main
 
 jobs:
   build:
